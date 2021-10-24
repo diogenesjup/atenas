@@ -1,0 +1,22 @@
+.produto {
+    &__categoria {
+        margin: 0 0 16px 0;
+        &__carrossel {
+            overflow-x: auto;
+            display: flex;
+            margin: 0;
+            &::-webkit-scrollbar,
+            &::-webkit-scrollbar-track,
+            &::-webkit-scrollbar-thumb {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+    .tabs__header {
+        margin: 0 0 32px 0;
+    }
+    .tabs__content {
+        padding: 0;
+    }
+}

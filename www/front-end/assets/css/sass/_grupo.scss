@@ -1,0 +1,88 @@
+.grupo {
+    &__card {
+        background-color: $white;
+        border-radius: 6px;
+        box-shadow: 0 4px 7px rgba(0, 0, 0, .16);
+        padding: 32px 20px 20px 20px;
+        &:not(:last-child) {
+            margin: 0 0 24px 0;
+        }
+        figure {
+            border-radius: 1000px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 100%;
+            }
+        }
+        &__header {
+            display: flex;
+            align-items: center;
+            figure {
+                min-width: 75px;
+                height: 75px;
+                margin: 0 22px 0 0;
+                border: 2px solid #EFEFEF;
+            }
+            h2 {
+                font: 700 19px/1.2 $openSans;
+                width: 100%;
+                margin: 0;
+            }
+        }
+        &__infos {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top: 1px solid #C0C0C050;
+            border-bottom: 1px solid #C0C0C050;
+            padding: 16px 0;
+            margin: 16px 0;
+            aside {
+                h4 {
+                    color: $yellow;
+                    margin: 0 0 2px 0;
+                    text-align: center;
+                    font-weight: 300;
+                }
+                h5 {
+                    color: $yellow;
+                    font: 600 12px/1 $openSans;
+                    margin: 0 0 10px 0;
+                }
+                h6 {
+                    margin: 0;
+                    font-size: 13px !important;
+                    text-align: center;
+                }
+                div {
+                    display: flex;
+                    figure {
+                        width: 36px;
+                        height: 36px;
+                        margin: 0 12px 0 0;
+                    }
+                }
+                &.membros {
+                    padding: 6px 16px;
+                    border: 2px solid $yellow;
+                    border-radius: 4px;
+                    background: #2DCCD310;
+                }
+            }
+        }
+        button {
+            background: #363636;
+            color: $white;
+            font: 600 16px/1 $openSans;
+            border-radius: 4px;
+            padding: 12px;
+            border: unset;
+            display: block;
+            width: 100%;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "com.atenas.cptm",
+  "type": "custom",
+  "integrations": {
+    "cordova": {}
+  }
+}
